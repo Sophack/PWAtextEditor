@@ -28,7 +28,7 @@ This is a simple text editor application that runs in the browser. It is a singl
 
 ## Usage
 
-This type of application is useful for storing and retrieving data. Checking 
+This type of application is useful for storing and retrieving data. 
 
 ## License
 
