@@ -17,7 +17,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "idb-wrapper": "^1.7.2",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "inject-web-manifest-plugin": "^1.0.6"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
