@@ -21,6 +21,10 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "css-loader": "^6.7.3",
+    "nodemon": "^2.0.4",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.69.1",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }

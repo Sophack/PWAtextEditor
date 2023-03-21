@@ -24,12 +24,14 @@ warmStrategyCache({
   strategy: pageCache,
 });
 
+//register route for caching 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 //asset caching
 registerRoute(
   //callback function that will filter the requests to cache JS and CSS files
 ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
+//requesting the cache storage as well as network 
 new StaleWhileRevalidate({
   //name of cache storage.
   cacheName: 'asset-cache',
