@@ -23,7 +23,7 @@ module.exports = () => {
       }),
       //injecting custom service worker
       new InjectManifest({
-        swSrc: './src/sw.js',
+        swSrc: './src/src-sw.js',
         swDest: 'src-sw.js',
       }), 
       //manifest.json file 
