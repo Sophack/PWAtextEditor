@@ -1,6 +1,6 @@
 # Text Editor (PWA)
 
-Link to deployed application =>
+Link to deployed application => https://git.heroku.com/texy-editor.git
 
 ## Table of Contents
 
